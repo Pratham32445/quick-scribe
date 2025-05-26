@@ -95,7 +95,7 @@ const Navbar = () => {
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center gap-2">
             <img
-              src="/Asset 3.svg"
+              src="/logo.svg"
               alt="Quikscribe Logo"
               className="h-7 w-auto"
             />
