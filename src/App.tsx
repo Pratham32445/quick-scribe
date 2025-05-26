@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   Outlet,
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom";  
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import SignIn from "./pages/SignIn";
