@@ -141,7 +141,7 @@ const SignIn = () => {
     const {error} = await supabase.auth.signInWithOAuth({
       provider : "google",
       options : {
-        redirectTo : `${import.meta.env.VITE_BASE_URL}/dashboard`
+        redirectTo : `https://quick-scribe-ah95.vercel.app/dashboard`
       }
     })
     console.log(error);
